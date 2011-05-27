@@ -1,0 +1,22 @@
+body{
+	font-family:Tahoma, sans-serif;
+	font-size:12px;
+	background:#ddd;
+}
+a, a:visited{color: #ccccff;}
+.wrapper{margin:100px auto; width:900px; padding:10px 20px 50px;
+	background-image: -webkit-gradient(
+	    linear,
+	    left bottom,
+	    left top,
+	    color-stop(0.8, rgb(130,117,130)),
+	    color-stop(1, rgb(61,43,61))
+	);
+	background-image: -moz-linear-gradient(
+	    center bottom,
+	    rgb(130,117,130) 80%,
+	    rgb(61,43,61) 100%
+	);
+	-moz-border-radius: 8px; border-radius: 8px;
+	}
+.bounce-item{background:#666; color:#fff; padding:10px;-moz-border-radius: 15px; border-radius: 15px;}
