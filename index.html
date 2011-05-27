@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Bounce example</title>
+	<meta name="generator" content="TextMate http://macromates.com/">
+	<meta name="author" content="Giant Peach">
+	<!-- Date: 2011-05-24 -->
+	
+	<link type="text/css" href="example.css" rel="stylesheet" />
+	
+	<!-- Required for gpbounce -->
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>	
+	
+	<link type="text/css" href="gpbounce.css" rel="stylesheet" />
+	<script type="text/javascript" src="jquery.gpbounce.min.js"></script>	
+	
+	<script type="text/javascript">
+		$(document).ready(function()
+		{
+			$('.banner-bounce').bounce();
+		});
+	</script>
+</head>
+<body>
+
+	<div class="wrapper">
+		
+		<div class="copy">
+			<p>Here is version 1.0 of the  bouncing slider we use on our home page.</p>
+			<p>
+				<a href="gpbounce-v1.0.zip">download source</a>
+			</p>
+		</div>
+		
+		<h3>
+			<em>navigate:</em>
+			<a href="#" class="bounce-prev">previous</a> / <a href="#" class="bounce-next">next</a>
+			
+		</h3>
+		
+		<div class="banner-bounce">
+			<div class="bounce-item">
+
+				<div class="featured-text">
+					<h4>Example Item 1</h4>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+					<p><a href="#">Find out more</a></p>
+				</div>
+			</div>
+			<div class="bounce-item">
+
+				<div class="featured-text">
+					<h4>Example Item 2</h4>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+					<p><a href="#">Find out more</a></p>
+				</div>
+			</div>
+			<div class="bounce-item">
+
+				<div class="featured-text">
+					<h4>Example Item 3</h4>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+					<p><a href="#">Find out more</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
